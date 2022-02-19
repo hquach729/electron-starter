@@ -16,4 +16,16 @@ author and description can be any value, but are necessary for app packaging.
   "license": "MIT"
 }
 
+Change the stupid main branch to master
+hint:   git config --global init.defaultBranch <name>
+
+echo "# electron-starter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hquach729/electron-starter.git
+git push -u origin master
+
+yarn add --dev electron
+
 ```

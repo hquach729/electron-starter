@@ -1,0 +1,12 @@
+{
+  "name": "electron-starter",
+  "version": "1.0.0",
+  "description": "Electron Starter Template",
+  "main": "main.js",
+  "repository": "https://github.com/hquach729/electron-starter.git",
+  "author": "Hung Quach",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.0.1"
+  }
+}
